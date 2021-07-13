@@ -1188,3 +1188,13 @@ properly.
   margin-right: auto !important;
   text-align: center !important;
 }
+
+@media screen and (max-width: 1300px) {
+  .portfolio-item .portfolio-item-meta h5 {
+    font: 26px/31px "opensans-bold", sans-serif;
+  }
+  .portfolio-item .portfolio-item-meta p {
+    font: 16px/30px "opensans-light", sans-serif;
+    font-weight: bold;
+  }
+}
