@@ -1191,10 +1191,10 @@ properly.
 
 @media screen and (min-width: 1300px) {
   .portfolio-item .portfolio-item-meta h5 {
-    font: 26px/31px "opensans-bold", sans-serif;
+    font: 26px/31px "opensans-bold", sans-serif !important;
   }
   .portfolio-item .portfolio-item-meta p {
-    font: 16px/30px "opensans-light", sans-serif;
-    font-weight: bold;
+    font: 16px/30px "opensans-light", sans-serif !important;
+    font-weight: bold !important;
   }
 }
