@@ -40,7 +40,12 @@ const Header = ({ data }) => {
               Works
             </a>
           </li>
-          
+          <li>
+            <a className="smoothscroll" href="#testimonials">
+              Skills
+            </a>
+          </li>
+
           <li>
             <a className="smoothscroll" href="#about">
               About
@@ -52,11 +57,6 @@ const Header = ({ data }) => {
             </a>
           </li>
 
-          <li>
-            <a className="smoothscroll" href="#testimonials">
-              Skills
-            </a>
-          </li>
           <li>
             <a className="smoothscroll" href="#contact">
               Contact
@@ -77,10 +77,7 @@ const Header = ({ data }) => {
           <hr />
           <ul className="social">{networks}</ul>
         </div>
-
-        
       </div>
-      
 
       <p className="scrolldown">
         <a className="smoothscroll" href="#portfolio">
@@ -88,7 +85,6 @@ const Header = ({ data }) => {
         </a>
       </p>
       {/* <div className="banne--gradient"></div> */}
-      
     </header>
   );
 };
