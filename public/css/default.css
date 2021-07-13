@@ -1189,7 +1189,7 @@ properly.
   text-align: center !important;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1300px) {
   .portfolio-item .portfolio-item-meta h5 {
     font: 26px/31px "opensans-bold", sans-serif;
   }
