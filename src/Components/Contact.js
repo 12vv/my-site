@@ -41,99 +41,68 @@ const Contact = ({ data }) => {
         </div>
       </div>
 
-      <div className="row">
-        <div className="eight columns">
-          <form onSubmit={submitForm}>
-            <fieldset>
+      <div className="form-wrapper">
+        <form id="form" name="emailform" onSubmit={submitForm} >
+            <div className="form-input-grid">
               <div>
-                <label htmlFor="contactName">
-                  Name <span className="required">*</span>
-                </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={name}
-                  size="35"
-                  id="contactName"
-                  name="contactName"
-                  onChange={(e) => setName(e.target.value)}
-                />
+                <p className="form-text">Name*</p>
+                <div className="form-input-wrapper flexbox-left">
+                  <i className="uil uil-user"></i>
+                  <input 
+                    id="contactName"
+                    name="contactName"
+                    className="form-input" 
+                    type="text" 
+                    defaultValue=""
+                    value={name}
+                    placeholder="Name" 
+                    onChange={(e) => setName(e.target.value)}
+                     />
+                </div>
               </div>
+            <div>
+            <p className="form-text">Email*</p>
+            <div className="form-input-wrapper flexbox-left">
+              <i className="uil uil-asterisk"></i>
+              <input 
+                className="form-input" 
+                defaultValue=""
+                value={email}
+                id="contactEmail" 
+                name="contactEmail" 
+                type="text" 
+                placeholder="Email" 
+                onChange={(e) => setEmail(e.target.value)}
+                 />
+            </div>
+          </div>
+        </div>
 
-              <div>
-                <label htmlFor="contactEmail">
-                  Email <span className="required">*</span>
-                </label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={email}
-                  size="35"
-                  id="contactEmail"
-                  name="contactEmail"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              </div>
+    <div className="form-input-max">
+      <p className="form-text">Message* (Max 500)</p>
+      <div id="textarea" className="form-input-wrapper flexbox-left-start">
+        <i className="uil uil-comment-dots"></i>
+        <textarea className="form-input" id="message" name="message" placeholder="Your message" maxlength="500" aria-label="" required></textarea>
+      </div>
+     </div>
 
-              <div>
-                <label htmlFor="contactSubject">Subject</label>
-                <input
-                  type="text"
-                  defaultValue=""
-                  value={subject}
-                  size="35"
-                  id="contactSubject"
-                  name="contactSubject"
-                  onChange={(e) => setSubject(e.target.value)}
-                />
-              </div>
-
-              <div>
-                <label htmlFor="contactMessage">
-                  Message <span className="required">*</span>
-                </label>
-                <textarea
-                  cols="50"
-                  rows="15"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                  id="contactMessage"
-                  name="contactMessage"
-                ></textarea>
-              </div>
-
-              <div>
+     <div>
+     <div className="form-input-max flexbox-left">
                 <button onClick={submitForm} type="submit" className="submit">
                   Submit
                 </button>
               </div>
-            </fieldset>
-          </form>
+              </div>
+   </form>
+  </div>
 
-          <div id="message-warning"> Error boy</div>
-          <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!
-            <br />
-          </div>
-        </div>
 
-        <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
-            <p className="address">
-              {contactName}
-              <br />
-              {contactEmail}
-              <br />
-              <br />
-              {street} <br />
-              {city}, {state} {zip}
-              <br />
-              <span>{phone}</span>
-            </p>
-          </div>
-        </aside>
-      </div>
+
+
+
+
+
+      
     </section>
   );
 };

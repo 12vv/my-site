@@ -1,45 +1,35 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
-    "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
-    "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
+    "name": "Jay Ye",
+    "occupation": "Graduate student at the University of Alberta",
+    "description": "Things Are Not Always #000 or #fff",
+    "image": "logo.png",
+    "bio": "Hi there! I am Jay! Thanks for stopping by.",
+    "contactmessage": "Get in touch with me!",
+    "email": "yegarrick12@gmail.com",
     "phone": "+44 1234567899",
     "address": {
       "street": "123 Dev Lane",
-      "city": "London",
+      "city": "Canada",
       "state": "Devosphere",
       "zip": "W3B D3V"
     },
-    "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "website": "#",
+    "resumedownload": "#",
     "social": [
       {
-        "name": "youtube",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
-      },
-      {
-        "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
-        "className": "fa fa-facebook"
-      },
-      {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "#",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "#",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/12vv",
         "className": "fa fa-github"
       }
     ]
@@ -48,63 +38,80 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "University of Alberta - CANADA",
+        "degree": "Master's Degree, Computer Science",
+        "graduated": "July 2022",
+        "description": "Specialized in Multimedia"
+      },
+      {
+        "school": "Guangdong University of Technology - CHINA",
+        "degree": "Bachelor's Degree, Software Engineering",
+        "graduated": "July 2020",
+        "description": ""
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
-      }
-    ],
-    "skills": [
-      {
-        "name": "ReactJs",
-        "level": "100%"
+        "company": "University of Alberta",
+        "title": "Research Assistant",
+        "years": "Summer 2021",
+        "description": ""
       },
       {
-        "name": "Python",
-        "level": "85%"
-      },
-      {
-        "name": "Git",
-        "level": "70%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "99%"
-      },
-      {
-        "name": "Web Development",
-        "level": "95%"
+        "company": "Kingsoft Office Software Corporation Limited",
+        "title": "Software Test Engineer Intern",
+        "years": "Summer 2019",
+        "description": "Designed test cases to verify the correctness of components, located bugs, comunicated with developers."
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
-        "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "title": "Netflix Clone",
+        "category": "React, Redux, Firebase",
+        "description": "A Netflix website clone, use TMDB API.",
+        "image": "netflix-demo-s.png",
+        "url": "https://netflix-clone-d2e35.web.app/"
       },
       {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "title": "Google Docs Clone",
+        "category": "React, Next.js, Tailwind CSS",
+        "description": "A Google Docs clone, online editing and auto-save.",
+        "image": "docs-demo.png",
+        "url": "https://netflix-clone-d2e35.web.app/"
+      },
+      
+      {
+        "title": "Pixel City",
+        "category": "WebGL, Three.js",
+        "description": "This project voxelize images and visualize them in 3D based on the pixel value frequency.",
+        "image": "mosaic-s.png",
+        "url": "https://12vv.github.io/projects/pixelcity.html"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "title": "PHOTOGRAPHIC MOSAIC",
+        "category": "C++, OpenCV",
+        "description": "Photographic mosaic for fun.",
+        "image": "mosaic-s.png",
+        "url": "#"
+      },
+      {
+        "title": "Data Pre-processing for ICIAR 2018 Challenge",
+        "category": "Python, OpenSlide",
+        "description": "Parsed the XML annotation files, and cut the whole slide image based on the region of interest.",
+        "image": "iciar.png",
+        "url": "https://github.com/12vv/ICIAR2018DataPreprocessing"
+      },
+      {
+        "title": "A Calendar",
+        "category": "Javascript",
+        "description": "A Calendar App running on WeChat mini-program.",
+        "image": "ical-s.png",
+        "url": "https://github.com/12vv/miniprogram-cal"
       }
+
+      
     ]
   },
   "testimonials": {
@@ -116,6 +123,31 @@
       {
         "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
         "user": "Adam Curtis"
+      }
+    ]
+  },
+  "skills": {
+    "skills": [
+      {
+        "text": "HTML"
+      },
+      {
+        "text": "CSS"
+      },
+      {
+        "text": "Javascript"
+      },
+      {
+        "text": "ReactJS"
+      },
+      {
+        "text": "C++"
+      },
+      {
+        "text": "Python"
+      },
+      {
+        "text": "Photoshop"
       }
     ]
   }

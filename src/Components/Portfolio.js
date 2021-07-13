@@ -7,19 +7,20 @@ const Portfolio = ({ data }) => {
       return (
         <div key={projects.title} className="columns portfolio-item">
           <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a href={projects.url} title={projects.title} target="_blank">
               <img alt={projects.title} src={projectImage} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
+                  <p>[ {projects.category} ]</p>
+                  <p>{projects.description}</p>
                 </div>
-              </div>
-              <div className="link-icon">
-                <i className="fa fa-link"></i>
               </div>
             </a>
           </div>
+          <div className="title-wrap">
+              <p>{projects.title}</p>
+              </div>
         </div>
       );
     });
@@ -33,7 +34,7 @@ const Portfolio = ({ data }) => {
 
           <div
             id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
+            className="bgrid-halves s-bgrid-halves cf"
           >
             {projects}
           </div>

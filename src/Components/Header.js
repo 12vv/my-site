@@ -34,6 +34,13 @@ const Header = ({ data }) => {
               Home
             </a>
           </li>
+
+          <li>
+            <a className="smoothscroll" href="#portfolio">
+              Works
+            </a>
+          </li>
+          
           <li>
             <a className="smoothscroll" href="#about">
               About
@@ -44,14 +51,10 @@ const Header = ({ data }) => {
               Resume
             </a>
           </li>
-          <li>
-            <a className="smoothscroll" href="#portfolio">
-              Works
-            </a>
-          </li>
+
           <li>
             <a className="smoothscroll" href="#testimonials">
-              Testimonials
+              Skills
             </a>
           </li>
           <li>
@@ -67,19 +70,25 @@ const Header = ({ data }) => {
           <h1 className="responsive-headline">
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
-          <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
-          </h3>
+          {/* <h3>
+            Based in {city}. <span>{occupation}</span>. 
+          </h3> */}
+          <h3>{description}.</h3>
           <hr />
           <ul className="social">{networks}</ul>
         </div>
+
+        
       </div>
+      
 
       <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
+        <a className="smoothscroll" href="#portfolio">
           <i className="icon-down-circle"></i>
         </a>
       </p>
+      {/* <div className="banne--gradient"></div> */}
+      
     </header>
   );
 };
