@@ -81,13 +81,12 @@
         "image": "docs-demo.png",
         "url": "https://www.bilibili.com/video/BV1iV411W7rc/"
       },
-      
       {
-        "title": "Pixel City",
-        "category": "WebGL, Three.js",
-        "description": "This project voxelize images and visualize them in 3D based on the pixel value frequency.",
-        "image": "mosaic-s.png",
-        "url": "https://12vv.github.io/projects/pixelcity.html"
+        "title": "Poster",
+        "category": "Node.js, Express, React, MongoDB",
+        "description": "This is a full-stack project for posts sharing.",
+        "image": "poster.png",
+        "url": "https://postery.netlify.app/"
       },
       {
         "title": "PHOTOGRAPHIC MOSAIC",
