@@ -36,7 +36,7 @@ header {
   min-height: 500px;
   width: 100%;
   /* background: #161415 url(../images/bg2.jpg) no-repeat top center; */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/bg2.jpg);
   background-position: no-repeat top center;
   /* background-image: ; */
