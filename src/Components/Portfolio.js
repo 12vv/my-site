@@ -19,8 +19,8 @@ const Portfolio = ({ data }) => {
             </a>
           </div>
           <div className="title-wrap">
-              <p>{projects.title}</p>
-              </div>
+            <p>{projects.title}</p>
+          </div>
         </div>
       );
     });
@@ -34,7 +34,7 @@ const Portfolio = ({ data }) => {
 
           <div
             id="portfolio-wrapper"
-            className="bgrid-halves s-bgrid-halves cf"
+            className="bgrid-thirds s-bgrid-halves cf"
           >
             {projects}
           </div>

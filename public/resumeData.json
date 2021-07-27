@@ -98,7 +98,7 @@
       {
         "title": "Data Pre-processing for ICIAR 2018 Challenge",
         "category": "Python, OpenSlide",
-        "description": "Parsed the XML annotation files, and cut the whole slide image based on the region of interest.",
+        "description": "",
         "image": "iciar.png",
         "url": "https://github.com/12vv/ICIAR2018DataPreprocessing"
       },
