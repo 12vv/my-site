@@ -57,6 +57,12 @@
     ],
     "work": [
       {
+        "company": "美团 MEITUAN",
+        "title": "Front end Developer",
+        "years": "Spring 2022 - Summer 2023",
+        "description": ""
+      },
+      {
         "company": "University of Alberta",
         "title": "Research Assistant",
         "years": "Summer 2021",
@@ -67,12 +73,6 @@
         "title": "Software Test Engineer Intern",
         "years": "Summer 2019",
         "description": "Designed test cases to verify the correctness of components, located bugs, comunicated with developers."
-      },
-      {
-        "company": "美团 MEITUAN",
-        "title": "Front end Developer",
-        "years": "Spring 2022 - Summer 2023",
-        "description": ""
       }
     ]
   },
