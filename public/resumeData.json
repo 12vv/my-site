@@ -23,6 +23,11 @@
         "className": "fa fa-linkedin"
       },
       {
+        "name": "blog",
+        "url": "https://12vv.github.io/",
+        "className": "fa fa-book"
+      },
+      {
         "name": "instagram",
         "url": "#",
         "className": "fa fa-instagram"
@@ -70,7 +75,7 @@
       {
         "title": "Netflix Clone",
         "category": "React, Redux, Firebase",
-        "description": "A Netflix website clone, use TMDB API.",
+        "description": "A Netflix website clone, use TMDB API.\n[Test Account: test@qq.com; psw: 123456]",
         "image": "netflix-demo-s.png",
         "url": "https://netflix-clone-d2e35.web.app/"
       },
@@ -79,7 +84,7 @@
         "category": "React, Next.js, Tailwind CSS",
         "description": "A Google Docs clone, online editing and auto-save.",
         "image": "docs-demo.png",
-        "url": "https://www.bilibili.com/video/BV1iV411W7rc/"
+        "url": "#"
       },
       {
         "title": "Poster",
